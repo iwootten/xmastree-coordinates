@@ -10,4 +10,4 @@ Results are written to a csv file, which is then used for rendering.
 
 ## Want to learn more?
 
-Check out the [post](https://www.ianwootten.co.uk/2022/01/10/how-to-code-christmas-tree-leds-and-find-their-3d-coordinates/)/[video](https://www.youtube.com/watch?v=wYmbVT7NNI4) which goes into more detail about how it was built.
+Check out the [post](https://www.ianwootten.co.uk/2021/12/29/how-to-code-christmas-tree-leds-and-find-their-3d-coordinates/)/[video](https://www.youtube.com/watch?v=wYmbVT7NNI4) which goes into more detail about how it was built.
