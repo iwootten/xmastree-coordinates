@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<head>
+    <script src="static/js/p5.js"></script>
+    <style>
+        form {
+            font-size: large;
+        }
+
+        form button {
+            font-size: large;
+        }
+    </style>
+</head>
+
+<body>
+    <form method="POST">
+        <b>Image: {{ number }}</b><br />
+        X (Cam 1): <input type="text" id="x-cam-1" name="x-cam-1" />
+        Y (Cam 1): <input type="text" id="y-cam-1" name="y-cam-1" /><br />
+        Z (Cam 2): <input type="text" id="z-cam-2" name="z-cam-2" />
+        Y (Cam 2): <input type="text" id="y-cam-2" name="y-cam-2" /><br />
+        <button>Submit</button><br />
+    </form>
+    <script>
+        let number = '{{ number }}';
+    </script>
+    <script src="static/js/coords.js"></script>
+</body>
+
+</html>
