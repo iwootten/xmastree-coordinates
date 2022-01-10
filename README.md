@@ -2,9 +2,9 @@
 
 This flask/p5.js app allows manual calculation and rendering of LED 3D coordinates taken from two camera angles of a Christmas Tree. 
 
-This requires two collections of images, in the ```static/assets/x-y``` and ```static/assets/z-y``` directories, which will be used to display in the app.
+The app requires two collections of images, in the ```static/assets/x-y``` and ```static/assets/z-y``` directories, which will be used to display in the app.
 
-You'll can then select where you think the LED is, for the image from each angle.
+The app will then prompt to select where you think the LED is, for the image from each angle.
 
 Results are written to a csv file, which is then used for rendering.
 
